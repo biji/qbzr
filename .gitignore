@@ -1,0 +1,9 @@
+./api
+./build
+./docs/**/*.html
+./launchpad-export.tar.gz
+./locale
+./MANIFEST
+tags
+*.pyc
+.bzr
