@@ -701,7 +701,7 @@ class FileListContainer(QtGui.QWidget):
                               path,
                               id not in specific_file_ids,
                               path,
-                              "blue",
+                              "lightblue",
                               True))
 
             for path, id, kind, text_modified, meta_modified in delta.modified:
@@ -717,7 +717,7 @@ class FileListContainer(QtGui.QWidget):
                               path,
                               id not in specific_file_ids,
                               path,
-                              "red",
+                              "palevioletred",
                               False))
 
             for (oldpath, newpath, id, kind,
@@ -726,7 +726,7 @@ class FileListContainer(QtGui.QWidget):
                               newpath,
                               id not in specific_file_ids,
                               "%s => %s" % (oldpath, newpath),
-                              "purple",
+                              "pink",
                               True))
 
             for (id, path,

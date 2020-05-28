@@ -48,14 +48,14 @@ except ImportError:
     have_pygments = False
 
 colors = {
-    'delete': [QtGui.QColor(255, 160, 180), QtGui.QColor(200, 60, 90)],
-    'insert': [QtGui.QColor(180, 255, 180), QtGui.QColor(80, 210, 80)],
-    'replace': [QtGui.QColor(206, 226, 250), QtGui.QColor(90, 130, 180)],
-    'blank': [QtGui.QColor(240, 240, 240), QtGui.QColor(171, 171, 171)],
-    'dummy': [QtGui.QColor(0, 0, 0, 0), QtGui.QColor(0, 0, 0, 0)],
+    'delete': [QtGui.QColor('black'), QtGui.QColor('crimson')],
+    'insert': [QtGui.QColor('black'), QtGui.QColor('azure')],
+    'replace': [QtGui.QColor('black'), QtGui.QColor('royalblue')],
+    'blank': [QtGui.QColor('black'), QtGui.QColor('dimgray')],
+    'dummy': [QtGui.QColor('black'), QtGui.QColor('yellow')],
 }
 #The background color of the replacement text in a replacement group.
-interline_changes_background = QtGui.QColor(180, 210, 250)
+interline_changes_background = QtGui.QColor('darkslateblue')
 
 #load user-defined color mapping from configuration file.
 
